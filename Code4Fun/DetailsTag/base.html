@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>HTML &lt;details&gt; Tag</h1>
+
+    <details>
+        <summary>Descrição</summary>
+        <p>Este projeto serve para "brincar" um pouco com o HTML <code>&lt;details&gt;</code> tag.</p>
+    </details>
+
+    <details>
+        <summary>Visualizar Formulário</summary>
+        <fieldset>
+            <legend>Form</legend>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" disabled>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" disabled>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" disabled>
+
+                <input type="submit" disabled>
+            </form>
+        </fieldset>
+    </details>
+
+    <details>
+        <summary>Preencher Formulário</summary>
+        <fieldset>
+            <legend>Form</legend>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <input type="submit">
+            </form>
+        </fieldset>
+    </details>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
