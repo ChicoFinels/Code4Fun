@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>HTML Input Types</legend>
+        <form>
+            <label for="text">Texto</label>
+            <input type="text" name="text" id="text" required><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required><br>
+            <input type="radio" name="radio" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" name="radio" id="nao">
+            <label for="nao">Não</label><br>
+            <input type="checkbox" name="test1" id="test1">
+            <label for="test1">Test1</label>
+            <input type="checkbox" name="test2" id="test2">
+            <label for="test2">Test2</label><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+            <label for="number">Numero</label>
+            <input type="number" name="number" id="number" required><br>
+            <label for="range">Valor entre 0 e 10</label>
+            <input type="range" name="range" id="range" min="0" max="10" value="0"><br>
+            <label for="search">Pesquisa</label>
+            <input type="search" name="search" id="search"><br>
+            <label for="tel">Telemovel</label>
+            <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required><br>
+            <label for="time">Horas</label>
+            <input type="time" name="time" id="time" required><br>
+            <label for="date">Dia</label>
+            <input type="date" name="date" id="date"><br>
+            <label for="url">URL</label>
+            <input type="url" name="url" id="url" required><br>
+            <input type="file" name="file" id="file"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </fieldset>
+</body>
+
+</html>
