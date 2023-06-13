@@ -1,0 +1,44 @@
+.item1 {
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.item2 {
+    height: 175px;
+    width: 175px;
+    background-color: red;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container1 {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    z-index: 1;
+}
+
+.item1,
+.item2,
+.item3 {
+    text-align: center;
+    color: white;
+}
