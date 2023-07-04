@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Autocomplete Input</title>
+</head>
+
+<body>
+    <form>
+        <label for="browser">Selecione o browser que utiliza:</label>
+        <input list="browsers" name="browser" id="browser" autocomplete="off">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            <option value="Brave"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
