@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #429b9b;
+    height: 16vh;
+}
+
+.ChildA,
+.ChildB,
+.ChildC {
+    flex: 10;
+}
+
+.ChildA,
+.ChildC {
+    background-color: #025159;
+}
+
+.ChildD {
+    flex: 20;
+}
+
+main {
+    height: 84vh;
+    background-color: #7ffff9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Content {
+    width: 35vw;
+    height: 45vh;
+    background-color: #429b9b;
+}
+
+.Figs {
+    width: 35vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FigA,
+.FigC {
+    height: 14vh;
+    background-color: #025159;
+}
+
+.FigB {
+    height: 14vh;
+    background-color: #429b9b;
+}
