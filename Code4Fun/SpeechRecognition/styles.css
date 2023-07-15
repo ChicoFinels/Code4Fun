@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-size: 2vh;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.fields {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 5vh 50vh 5vh;
+    grid-row-gap: 2%;
+}
+
+h1 {
+    font-size: 5vh;
+    grid-column: 1 / 6;
+    text-align: center;
+}
+
+.textarea {
+    grid-row-start: 2;
+    grid-column: 2 / 5;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.buttons {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+}

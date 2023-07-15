@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="fields">
+        <h1>Speech Recognition</h1>
+        <div class="textarea">
+            <span id="final" class="text-light"></span>
+            <span id="interim" class="text-secondary"></span>
+            <p id="status" class="lead mt-3 text-light" style="display: none">Detetando voz!!! Fale "Stop" para parar ou
+                clique no botão "Stop" </p>
+        </div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
