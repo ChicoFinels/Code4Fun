@@ -1,12 +1,15 @@
-Este repositório contém alguns projetos que fui desenvolvendo com o objetivo de adquirir novas competências e aperfeiçoar certos conceitos para utilização futura.
+# Code4Fun
+![GitHub repo size](https://img.shields.io/github/repo-size/ChicoFinels/Code4Fun?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/ChicoFinels/Code4Fun?style=for-the-badge)
 
-Pode encontrar neste repositório projetos que abordam conceitos como:
-<ul>
-  <li>CSS Grid</li>
-  <li>Responsive Grid</li>
-  <li>Drag and Drop</li>
-  <li>Speech Recognition</li>
-  <li>FlexBox</li>
-  <li>QRCode Generator</li>
-  <li>Entre outros...</li>
-</ul>
+<p>This repository contains some projects that I have been developing in order to acquire new skills and improve certain concepts for future use.</p>
+
+## 📝 Contents
+
+- CSS grid
+- Responsive grid
+- Drag and drop
+- Speech recognition
+- Flexbox
+- QrCode generator
+  </br>...
